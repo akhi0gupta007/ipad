@@ -1,0 +1,526 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #666666 url(../images/header_bg.png) top left repeat-x;
+	font: 12px Verdana, Geneva, sans-serif;
+	color: #fff;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.kamMain {
+	width: 1022px;
+	float: left;
+}
+
+.login_main {
+	width: 500px;
+	padding: 25px 237px;
+}
+
+.adminform_main {
+	width: 574px;
+	padding: 25px 200px 0;
+}
+
+.login_form {
+	border: 1px solid #000;
+	width: 296px;
+	background: #ffffff url(../images/pageHeadingTop.png) top left repeat-x;
+	float: left;
+	padding: 15px 102px;
+	color: #000;
+}
+
+.createUser {
+	width: 500px;
+	background: #ffffff url(../images/pageHeadingTop.png) top left repeat-x;
+	float: left;
+	padding: 0 37px 20px;
+	color: #000;
+	border: 1px solid #000;
+	margin-top: 20px;
+}
+
+.inputHeading {
+	width: 130px;
+	padding: 25px 15px;
+	color: #626262;
+	font: bold 12px Verdana, Geneva, sans-serif;
+}
+
+.inputDiv,.usernameUpdate {
+	width: 300px;
+	padding: 0 20px;
+	float: right;
+}
+
+.login_form h2 {
+	font: bold 16px Verdana, Geneva, sans-serif;
+	padding: 0 0 20px;
+}
+
+.createUser h2 {
+	font: bold 16px Verdana, Geneva, sans-serif;
+	padding: 10px 0 20px;
+}
+
+.login_form h4 {
+	font: bold 12px Verdana, Geneva, sans-serif;
+	padding: 15px 0 0;
+	color: #626262;
+	float: left;
+}
+.addField {
+	background:url(../images/addField.png);
+	float: left;
+	
+}
+.login_form input.text {
+	background: url(../images/css_sprite.png) -317px 0px no-repeat;
+	border: none;
+	width: 98%;
+	padding: 0.9em 0.5em;
+	font: normal 13px Verdana, Geneva, sans-serif;
+	color: #5c5c5c;
+	float: left;
+	margin-top: 16px;
+}
+
+.createUser input.text {
+	background: url(../images/css_sprite.png) -317px 0px no-repeat;
+	border: none;
+	width: 98%;
+	padding: 0.9em 0.5em;
+	font: normal 13px Arial, Helvetica, sans-serif;
+	color: #5c5c5c;
+	float: left;
+	margin-top: 16px;
+}
+
+.rememberCheckBox {
+	width: auto;
+	float: left;
+	padding: 25px 0 0 0;
+}
+
+.rememberCheckBox label {
+	font: normal 12px Arial, Helvetica, sans-serif;
+	color: #626262;
+}
+
+.submit_button {
+	background: url(../images/submit.png);
+	float: right;
+}
+
+.cancelButton {
+	background: url(../images/cancelButton.png);
+	float: left;
+}
+
+.login_button {
+	background: url(../images/loginButton.png);
+	float: right;
+}
+
+.login_button:active {
+	background: url(../images/loginButtonHover.png);
+}
+
+.LostPassword {
+	width: 100%;
+	float: left;
+	font: normal 13px Arial, Helvetica, sans-serif;
+	color: #626262;
+	text-align: center;
+	padding: 30px 0 30px 0;
+}
+
+.LostPassword a {
+	font-weight: bold;
+	color: #169a5c;
+}
+
+.button {
+	width: 126px;
+	height: 36px;
+	border: none;
+	overflow: hidden;
+	text-indent: -999px;
+	cursor: pointer;
+	margin-top: 16px;
+}
+
+.footer {
+	width: 100%;
+	float: left;
+	padding: 15px 0;
+	text-align: center;
+	font: normal 11px Verdana, Geneva, sans-serif;
+	color: #000;
+}
+/*--- customer page Css Start---*/
+.topHeader {
+	width: 976px;;
+	padding: 15px 24px;
+	float: left;
+	background: #272422;
+}
+
+.companyLogo {
+	background: url(../images/companyLogo.png) top left no-repeat;
+	width: 96px;
+	width: 65px;
+	height: 30px;
+	float: left;
+	margin: -8px 0;
+}
+
+.topHeader ul {
+	list-style: none;
+	float: right;
+}
+
+.topHeader ul li {
+	float: left;
+	padding: 0 5px;
+	width: auto;
+}
+
+.topHeader ul li a {
+	color: #12a9aa;
+	text-decoration: none;
+}
+
+.topHeader ul li a:hover {
+	text-decoration: underline;
+}
+
+.topHeader ul li a.logout {
+	background: url(../images/logoutButton.png) top left no-repeat;
+	width: 96px;
+	height: 31px;
+	float: left;
+	overflow: hidden;
+	text-indent: -999px;
+	margin-top: -8px;
+}
+
+.topHeader ul li a.logout:hover {
+	background: url(../images/logoutButtonActive.png) top left no-repeat;
+	width: 96px;
+	height: 31px;
+	float: left;
+	overflow: hidden;
+	text-indent: -999px;
+	margin-top: -8px;
+}
+
+.customerList {
+	width: 100%;
+	padding: 10px 0;
+	float: left;
+}
+
+.customerList h3 {
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	margin-bottom: 5px;
+}
+
+.listStart {
+	width: 100%;
+	float: left;
+	border: 2px solid #555;
+}
+
+.listStart h3 {
+	background: #272422;
+	padding: 10px 0;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+}
+
+ul.companyName {
+	list-style: none;
+	background: #efefef;
+	width: 992px;
+	float: left;
+	padding: 0 15px;
+	float: left;
+}
+
+ul.companyName li {
+	padding: 0;
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+}
+
+ul.companyName li.name {
+	width: 550px;
+	float: left;
+	padding: 10px 0;
+}
+
+ul.companyName li a.createCustomer {
+	width: 78px;
+	background: url(../images/createUser.png) top left no-repeat;
+	height: 23px;
+	margin: 4px 50px 0 0;
+	overflow: hidden;
+	float: left;
+	text-indent: -999px;
+	overflow: hidden;
+}
+
+ul.companyName li a.viewUser {
+	background: url(../images/viewUser.png) top left no-repeat;
+	width: 74px;
+	height: 23px;
+	overflow: hidden;
+	float: left;
+	margin: 4px 125px 0 0;
+	text-indent: -999px;
+}
+
+.companyName li.deactive a.activeButton {
+	background: url(../images/active.png) top left no-repeat;
+	float: left;
+}
+
+.companyName li.edit a.editButton {
+	background: url(../images/edit_btn.png) top left no-repeat;
+	float: right;
+}
+
+#Wrapper {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#Wrapper .kamLogo {
+	float: left;
+	width: 200px;
+	height: 129px;
+}
+
+.kamLogo a {
+	padding: 60px 100px;
+	background: url(../images/kamHeaderImg.png) top left no-repeat;
+}
+
+.restImage {
+	width: 824px;
+	height: 129px;
+	background: url(../images/restImage.png) top left no-repeat;
+	float: right;
+}
+
+/* USER LIST CSS */
+ul.userListHead {
+	background: #fff;
+	float: left;
+	color: #000;
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+	list-style: none;
+	width: 992px;
+	padding: 0 15px;
+}
+
+ul.userListHead.ColorBlack {
+	background: #272422;
+	color: #fff;
+	font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+}
+
+ul.userListHead.changeColor {
+	background: #efefef;
+}
+
+.userListHead li {
+	float: left;
+}
+
+.userListHead li.sNo {
+	width: 150px;
+}
+
+.userListHead li.userName {
+	width: 200px;
+}
+
+.userListHead li.eMail {
+	width: 325px;
+}
+
+.userListHead li.phone {
+	width: 150px;
+}
+.userListHead li.role {
+	width: 75px;
+}
+.userListHead li.deactive {
+	width: 24px;
+}
+
+
+
+.userListHead li.edit {
+	width: 25px;
+	float: right;
+}
+
+.userListHead li.deactive a.activeButton {
+	background: url(../images/active.png) top center no-repeat;
+	float:left;
+	margin-left:5px;
+}
+.userListHead li.deactive a.disableButton {
+	background: url(../images/deactiveButton.png) top center no-repeat;
+	float:left;
+		margin-left:5px;
+}
+
+
+.disableButton {
+	background: url(../images/deactiveButton.png) top left no-repeat;
+	float: left;
+}
+
+.userListHead li.edit a.editButton {
+	background: url(../images/edit_btn.png) top left no-repeat;
+	float: right;
+}
+
+h2.loginDetails {
+	background: #4b4b4b;
+	font: bold 9pt Verdana, Arial, Helvetica, sans-serif;
+	color: #fff;
+	padding: 10px 15px;
+}
+
+/* customer css  */
+ul.companyHead {
+	background: #272422;
+	color: #fff;
+}
+
+li.paddingTop {
+	padding: 10px 0;
+}
+
+ul.commonCss {
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	list-style: none;
+	float: left;
+	width: 992px;
+	padding: 0 15px;
+}
+
+.companyHead li.company {
+	width: 875px;
+}
+
+.companyHead li.enable {
+	width: 28px;
+	margin-right: 50px;
+}
+
+ul.adminHead {
+	background: #fff;
+	color: #000;
+}
+
+ul.adminHead.list {
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.adminHead li.adminName {
+	width: 250px;
+}
+
+.adminHead li.email {
+	width: 300px;
+}
+
+.adminHead li.phone {
+	width: 335px;
+}
+
+.changePointer {
+	cursor: default;
+}
+
+.activeEditBtn {
+	width: 24px;
+	height: 24px;
+	margin: 4px 0;
+	text-indent: -999px;
+	overflow: hidden;
+}
+
+.adminHead li.edit a.editButton {
+	background: url(../images/edit_btn.png) top left no-repeat;
+	float: right;
+}
+
+.adminHead li.deactive a.activeButton {
+	background: url(../images/active.png) top left no-repeat;
+	float: left;
+}
+
+/*Registration css */
+form.cmxform label.error,label.error,.error {
+	/* remove the next line when you have trouble in IE6 with labels in list */
+	color: #e1051f;
+}
+
+.error ul {
+	list-style: none;
+}
+.docDetails{
+background:#fff; 
+color:#000; 
+width:80%;  
+float:left;
+padding:20px 0 20px 20% ;
+}
+
+.export{
+padding:10px  150px;
+float:right;
+}
+
+#signupForm label.error,#addEntry label.error,#loginForm label.error,#addClient label.error,#inviteClientForm label.error,#invitationForm label.error
+	{
+	width: auto;
+	display: block;
+}
+
+.selectTextCommon {
+ font: normal 13px Verdana, Geneva, sans-serif;
+	color: #5c5c5c;
+ float: left;
+ margin-top: 16px;
+ padding: 8px 5px;
+ width: 300px;
+ border: 1px solid #cccccb;
+ border-radius: 3px;
+ box-shadow: -1px 1px 6px #e1e1e1 inset;
+ height: 35px;
+}
+
+.login_message{
+	color:#FF0000;
+	font-weight:bold;
+}

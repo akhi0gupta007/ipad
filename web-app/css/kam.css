@@ -1,0 +1,1368 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 12px Verdana, Geneva, sans-serif;
+	color: #fff;
+}
+img{
+	border: none;
+}
+#header{
+	background:url(../images/header.png) top left repeat-x;
+	width:100%;
+	
+}
+ ul {
+	list-style: none;
+}
+a	{ 
+	text-decoration: none;
+}
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.hidden{
+	text-indent: -999px;
+	overflow: hidden;
+	cursor: pointer;
+}
+/* common css for every page start */
+
+.mainBg{
+	background: url(../images/bg.png) center -50px no-repeat;
+	width:100%;
+	float:left;
+	min-height:335px;
+}
+
+#Wrapper {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+/* Header css  start */
+
+
+.lanNav {
+	margin:100px 0 0 0;
+	width: 650px;
+	float: left;
+	padding-left:50px;
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+}
+.lanNav li.languageLi {
+	display: inline-block;
+	padding: 10px 15px 0 0;
+}
+.lanNav li a.language {
+	width: 26px;
+	height: 20px;
+}
+.lanNav li a.english {
+	background: url(../images/css_sprite.png) -718px 0 no-repeat;
+}
+.lanNav li a.dutch {
+	background: url(../images/css_sprite.png) -750px 0 no-repeat;
+}
+/* Header css  end */
+
+/* footer css  start */
+
+ .footerBg{
+	background: url("../images/bottomBg.png") center top no-repeat;
+    width:100%;
+   	padding:430px 0 0 0;
+   	float:left;
+}
+
+
+/* footer css  end */
+
+/* common css for every page end */
+
+/* topHeader css start */
+.topHeader {
+	width: 990px;
+	padding: 0 15px;
+	float: left;
+	background: #272422;
+	border: 2px solid #777;
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+}
+.companyLogo {
+	width: 175px;
+	float: left;
+	padding:15px 0;
+}
+.upperDownPadding {
+	padding:15px 0 15px 15px;
+}
+ul.dropdown{ 
+	position: relative;
+}
+ul.dropdown > li{
+	color:#fff;
+	margin:7px;
+	cursor: pointer;
+	border-radius:5px;
+}
+ul.dropdown > li.noDrop{
+	padding:8px 7px;
+}
+ul.dropdown > li:hover{
+	background:#165ec0;
+	position: relative; 
+}
+ul.dropdown > li.subMenu{
+	padding:8px 20px 8px 7px;
+	background: url(../images/dropDown.png) center right no-repeat;
+}
+ul.dropdown > li.subMenu.dropUp{
+	background:#165ec0 url(../images/dropUp.png) center right no-repeat;
+}
+ul.dropdown ul {
+	width:200px;
+	visibility:hidden;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	border-radius:3px;
+	z-index: 99999;
+}
+
+.headerDrop li a{
+	width:189px;
+	padding:5px;
+	border-bottom:1px solid #000;
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+	display: block;
+	font-size: 10px;
+}
+.headerDrop li a:hover{
+	background:#89B8F8;
+	color:#000;
+}
+.homeButton{
+	background: url(../images/home.png) top left repeat-x;
+	padding: 0 0 0 15px;
+	margin: 11px 0 0 10px;
+	color: #fff;
+}
+.homeButton span{
+	background: url(../images/submitRight.png) top right no-repeat;
+	padding: 10px 10px 13px 0;
+	position: relative;
+	margin-right: -4px;
+}
+.syn {
+	background: url(../images/syn.png) top left  repeat-x;
+	float:left;
+	margin: 6px 0 0 10px;
+	color: #fff;
+	padding: 0 0 0 28px;
+}
+.syn span {
+	background: url(../images/synRight.png) top right no-repeat;
+	padding: 8px 10px 8px 0;
+	float: left;
+	position: relative;
+	margin-right: -4px;
+}
+
+.syn:hover {
+	background: url(../images/synHover.png) top left repeat-x;
+	
+}
+
+/* topHeader css end */
+
+/* backHeader css start */
+
+ul.backUl {
+	width: 1020px;
+	float: left;
+	background: #444;
+	font: bold 12px Verdana, Geneva, sans-serif;
+	border-right: 2px solid #777;
+	border-left: 2px solid #777;
+}
+
+.back {
+	background: url(../images/css_sprite.png) -781px 0 repeat-x;
+	float: left;
+	padding: 0 0 0 17px;
+	margin:12px 0 11px 0;
+	font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+}
+
+.back span {
+	background: url(../images/backRightButton.png) top right no-repeat;
+	padding: 4px 10px 5px 5px;
+	float: left;
+	right: -2px;
+	position: relative;
+}
+
+.back:hover {
+	background-position: -848px 0;
+}
+/* backHeader css end */
+
+/* login page css  start */
+
+.login_main {
+	width: 500px;
+	padding: 0 0 0 237px;
+}
+
+/* login page css  end */
+.customerList {
+	width: 1020px;
+	float: left;
+	border: 2px solid #777;
+}
+.formBox {
+	width: 520px;
+	margin: 0 auto;
+}
+
+.formHeadingBg{
+background: #fff url(../images/pageHeadingTop.png) top left repeat-x;
+float: left;
+color: #000;
+}
+
+.overlayWidth {
+	width:440px;
+	padding: 0 15px 20px;
+	border: 2px solid #999;
+}
+.equipmentOverlay{
+ width:815px;
+ padding: 0 0 20px 15px;
+ border: 2px solid #999;
+ 
+}
+
+.scrollingSubmit{
+ width:46%;
+ margin-right:150px;
+ float:right;
+}
+
+.scrolling{
+ height:440px;
+ overflow-y: auto;
+}
+
+.login_form {
+	border: 1px solid #000;
+	width: 302px;
+	padding: 0 99px 10px;
+}
+.createUser {
+	width:490px;
+	padding: 0 15px 20px;
+	border: 2px solid #999;
+}
+.newTemplate {
+ width: 990px;
+ padding: 0 15px 20px;
+
+}
+
+.inputHeading {
+	width: 158px;
+	padding: 12px 15px;
+	color: #626262;
+	font: bold 12px Verdana, Geneva, sans-serif;
+	float: left;
+}
+
+.loginHeading {
+	width: auto;
+	padding: 15px 0;
+	color: #626262;
+	font: bold 14px Verdana, Geneva, sans-serif;
+	float: left;
+}
+h2 {
+	font: bold 18px Verdana, Geneva, sans-serif;
+	padding: 10px 0 20px;
+}
+.fontColor{
+	color:#000;
+}
+.alink{
+	color:#fff;
+}
+.rememberCheckBox {
+	width: auto;
+	float: left;
+	padding: 20px 0 0 0;
+}
+.rememberCheckBox label{
+	color: #626262;
+}
+.LostPassword a {
+	float: right;
+	font-weight: bold;
+	padding: 10px 0 0 0px;
+	color: #15C;
+}
+
+/*--- customer page Css Start---*/
+.createCustomer {
+	background: url(../images/createLeft.png) top left repeat-x;
+	margin: 4px 0 0 0;
+	float: left;
+	padding: 0 0 0 13px;
+	font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+	color: #fff;
+}
+
+.createCustomer:hover {
+	background: url(../images/createHover.png) top left repeat-x;
+}
+
+.createCustomer span {
+	background: url(../images/createRight.png) top right no-repeat;
+	padding: 6px 10px 6px 0;
+	float: left;
+	position: relative;
+	right: -6px;
+}
+
+.inputButton{
+	border: none;
+	margin-right:-4px;
+	float: left;
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	cursor: pointer;
+}
+.submitCommonBg {
+	background: url(../images/css_sprite.png) -1005px 0 repeat-x;
+	margin: 15px 6px 0 0;
+}
+.submitCommonBg:hover {
+	background-position: 0 0;
+}
+.submitCommonBg input {
+	background: url(../images/submitRight.png) top right no-repeat;
+	padding: 12px 20px 12px 30px;
+	color: #fff;
+}
+.cancelCommonBg {
+	background:url(../images/css_sprite.png) -781px -24px repeat-x;
+	margin:15px 0 0;
+	float: left;
+}
+.AddCommonBg {
+	background:url(../images/css_sprite.png) -781px -65px repeat-x;
+}
+.cancelCommonBg span , .cancelCommonBg input {
+	background: url(../images/cancelRight.png) top right no-repeat;
+	padding: 10px 15px 12px 35px;
+	color: #666;
+}
+
+.activeEditBtn {
+	width: 24px;
+	height: 24px;
+	margin: 4px 0;
+	text-indent: -999px;
+	overflow: hidden;
+}
+.activeButton {
+	background: url(../images/active.png) top left no-repeat;
+	float: left;
+}
+.disableButton {
+	background: url(../images/css_sprite.png) -660px 0px no-repeat;
+}
+.plusIcon {
+	background: url(../images/css_sprite.png) -718px -65px no-repeat;
+}
+.useIcon {
+	background: url(../images/useIcon.png) top left no-repeat;
+}
+.editButton {
+	background: url(../images/css_sprite.png) -633px 0 no-repeat;
+	float:left;
+}
+
+/* USER LIST CSS */
+
+.ColorBlack {
+	background: #272422;
+	color: #fff;
+	font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+}
+.width300 {
+	width: 300px;
+}
+.serialNo {
+	width: 5%;
+}
+.enable {
+	width:6.5%;
+}
+.role {
+	width: 8%;
+}
+.delete{
+	width:9%;
+}
+.width9Half{
+	width:9.5%;
+}
+.width10{
+	width:10% ;
+}
+.width11 {
+	width:11% ;
+}
+.width12 {
+	width:12% ;
+}
+.width12Half{
+	width:12.5%;
+}
+.fieldsNo {
+	width:13% ;
+}
+.userName {
+	width: 15%;
+}
+.templateNameHead{
+	width: 15.5%;
+}
+
+.widthEighteen{
+	width:18%;
+}
+.width20{
+	width:20%;
+}
+.width25percent {
+	width: 25%;
+}
+.email {
+	width: 29%;
+}
+.width32{
+	width:32%;
+}
+.width36{
+	width:36%;
+}
+.width60{
+	width:60%;
+}
+.company {
+	width: 79%;
+}
+
+h2.loginDetails {
+	background: #4b4b4b;
+	font: bold 9pt Verdana, Arial, Helvetica, sans-serif;
+	color: #fff;
+	padding: 10px 15px;
+	margin: 15px 0 0 0;
+}
+
+/* customer css  */
+.gridColor{
+	background: #272422;
+	color: #fff;
+}
+.secondGridColor{
+	background: #efefef;
+	color: #000;
+}
+.thirdGridColor{
+	background: #fff;
+	color: #000;
+}
+.customerCompany{
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	float: left;
+	width: 990px;
+	padding: 0 15px;	
+}
+.paddingTop {
+	padding: 10px 0 !important;
+}
+.paddingLeft{
+	padding:12px 0 0 10px;
+}
+.paddingRight{
+	padding-right:15px
+}
+.list {
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+}
+.changePointer {
+	cursor: default;
+}
+
+
+/*Registration css */
+form.cmxform label.error,label.error,.error {
+	/* remove the next line when you have trouble in IE6 with labels in list */
+	color: #e1051f;
+	float: left;
+	padding: 0 0 0 190px;
+}
+.errorMessage{
+ color: #e1051f;
+ clear:both;
+ padding:0 0 0 10px;
+}
+.errorPadding{
+  margin:5px 0 0 100px;
+}
+.docDetails {
+	color: #000;
+	width: 1000px;
+	float: left;
+	margin: 20px 10px;
+}
+#signupForm label.error,#addEntry label.error,#loginForm label.error,#addClient label.error,#inviteClientForm label.error,#invitationForm label.error
+	{
+	width: auto;
+	display: block;
+}
+
+.selectTextCommon {
+	color: #5C5C5C;
+	padding:6px;
+	width: 300px;
+	border: 1px solid #cccccb;
+	border-radius: 3px;
+	box-shadow: -1px 1px 6px #e1e1e1 inset;
+	height: 35px;
+}
+
+.login_message {
+	margin: 20px 0 0 0;
+	color: #FF0000;
+	font-weight: bold;
+}
+
+/* showTemplate css start*/
+
+
+.formInput {
+	width: 100%;
+	float: left;
+	padding: 7px 0 0 0;
+}
+.checkpointDiv{
+	width: 100%;
+	float: left;
+	padding: 10px 0;
+}
+input.field {
+	background:url(../images/css_sprite.png) -317px 0px no-repeat;
+	border: none;
+	width: 282px;
+	padding: 11px 10px;
+	color: #5c5c5c;
+}
+
+input.serialNoField {
+	background:url(../images/css_sprite.png) -317px 0px no-repeat;
+	border: none;
+	width: 100px;
+	padding: 11px 10px;
+	color: #5c5c5c;
+}
+.templateSelect {
+	width: 115px;
+	height: 35px;
+	float: left;
+	margin: 0 0 0 5px;
+	border: 1px solid #cccccb;
+}
+
+.removeBox {
+	width: 120px;
+	float: left;
+}
+
+.removeBox a {
+	background: url(../images/removeField.png) top left no-repeat;
+	width: auto;
+	float: left;
+	color:#626262;
+	padding:0 0 2px 20px;
+	margin: 11px 0 0 10px;
+}
+
+.addRemoveLabel {
+	padding: 10px 0;
+	width: 100px;
+	float: left;
+}
+.shortDelete{
+	background: url(../images/removeField.png) top left no-repeat;
+	width:16px;
+	height:16px;
+}
+.addField {
+	background: url(../images/addFieldButton.png) top left no-repeat;
+	float: left;
+	color:#626262;
+	padding: 5px 0 5px 30px;
+}
+
+/* showTemplate css end*/
+
+/* TemplateList css start*/
+
+
+.viewTemplate {
+	background: url(../images/css_sprite.png) -718px -25px no-repeat;
+}
+
+.documentHeading li {
+	display: inline-block;
+	min-width: 33.3%;
+	max-width: 33.3%;
+	height: auto !important;
+	text-align: center !important;
+}
+
+.iframeCss {
+	width: 300px;
+	height: 75px;
+	border: 1px solid #777;
+}
+
+.marginRight{
+	margin-right:15px;
+}
+.marginBottom{
+	margin-bottom: 10px;
+}
+.marginTop {
+	margin: 15px 0 0 0;
+}
+.moveSelectLeft {
+	margin:0 10px 0 118px;
+}
+.editEquipmentSubmit {
+	margin:0 10px 0 312px;
+}
+.checkPointBtn{
+	padding:8px 5px;
+}
+/* Document creation css end*/
+
+
+
+
+
+
+/*--- documentlist starts from here ---*/
+
+.searchField {
+	padding: 7px 0 6px 9px;
+	width: 200px;
+	background: #fff;
+	font-size: 12px;
+	margin:6px 0 0 15px;
+	border:1px solid #777;
+}
+.searchButtton {
+	background: url(../images/css_sprite.png) -68px -84px no-repeat;
+	width: 28px;
+	height: 30px;
+	border: none;
+	overflow: hidden;
+	text-indent: -999px;
+	margin:6px 0;
+}
+.searchButtton:hover {
+	background: url(../images/css_sprite.png) -100px -84px no-repeat;
+	
+}
+#main_box {
+	width:100%;
+	background: #444 url(../images/shadow.png) top left repeat-y;
+}
+#navigation {
+	width:125px;
+	padding: 0 15px;
+}
+ .userHeading {
+	color:#FFF;
+	font:bold 12px Verdana, Geneva, sans-serif ;
+	
+}
+#navigation ul{
+	width:120px;
+	list-style-type:none;
+	float:left;
+	
+}
+#navigation > ul > li {
+	margin:0 0 15px 0;
+	float:left;
+	width:120px;
+	background:#165ec0;
+	border:1px solid #939393;
+	font: 14px Verdana, Geneva, sans-serif;
+	
+}
+#navigation > ul > li > a{
+	color:#fff;
+	padding:6px 10px;
+	float:left;
+	width:100px;
+	background:url(../images/downDroper.jpg) top right no-repeat;
+}
+#navigation > ul > li > ul{
+	display:none;
+	background:#f3f1f1;
+	float:left;
+	width:200px;
+	position: relative;
+	z-index: 99999999999;
+}
+#navigation > ul > li > ul > li{	
+	border-bottom: 1px solid #939393;
+	border-right: 1px solid #939393;
+	color:#000;
+	width:200px;
+	float:left;
+}
+#navigation > ul > li > ul > li:hover{
+	background:#89B8F8;
+	cursor:default;
+}
+#navigation > ul > li > ul > li a{
+	color:#000;
+	float:left;
+	padding:6px 15px;
+	width:200px;
+	
+}
+.result {
+	background:#165ec0 url(../images/leftSearch.png) top right no-repeat !important;
+     }
+.result:hover {
+	background:#165ec0 url(../images/leftSearchHover.png) top right no-repeat !important;
+     }	  
+#rhtBoxtext {
+	width:863px;
+	float:left;
+}
+.exportPdf{
+	background:url(../images/pdf_logo.png) top right no-repeat;
+	
+	margin:5px 0 0 0;
+	padding:5px 28px 5px 0 ;
+	color:#fff;
+	text-align: right;
+}
+.docList{
+	padding:10px 0 10px .5%;
+}
+.liDivider{
+	float:left;
+	background:url(../images/divider.png) center right no-repeat;
+	overflow: hidden;
+}
+.downArrow {
+	background:url(../images/down_arrow.png) center right no-repeat;
+	float:right;
+	width:12px;
+	height:11px;
+	margin:2px 8px 0 0;
+}
+.upArrow {
+ 	background:url(../images/upArrow.png) center right no-repeat;
+ 	float:right;
+ 	width:12px;
+	height:11px;
+	margin:2px 8px 0 0;
+}
+.statusIcon{
+	width:90px;
+	height:9px;
+	margin:4px 0 0 0;
+	float:left;
+	color:#fff;
+	padding:5px 0 11px 12px;
+	font:9px Verdana, Geneva, sans-serif ;
+}
+
+.readyIcon{
+	background:url(../images/css_sprite.png) 0 -343px no-repeat;
+}
+.nvtIcon{
+	background:url(../images/css_sprite.png) 0 -373px no-repeat;
+}
+.intreatmentIcon{
+	background:url(../images/css_sprite.png) 0 -402px no-repeat;
+}
+.notreadyIcon{
+	background:url(../images/css_sprite.png) 0 -434px no-repeat;
+}
+
+.viewDocPadding{
+	padding:10px 0 10px 1%;
+}
+
+#documentsList{
+	min-height: 275px;
+}
+/*--- pdf starts from here ---*/
+
+ .pdfOuter{
+ 	width:98.4%; 
+ 	padding: 5px 5px; 
+ }  			
+.fullWidth{
+	width:100%;
+	float:left;
+}
+.width33Percent{
+	width: 33%;
+}
+.widthHalf{
+	width: 48.4%;
+}
+.textCenter{
+	text-align: center;
+}
+.textRight{
+	text-align: right;
+}
+
+.fourSideBorder{
+	border: 1px solid #666;
+}
+
+.marginTopBottom{
+	margin:15px 0;
+}
+.marginLeft{
+	margin-left:15px;
+}
+.marginLeftOverlay{
+	margin-left:90px;
+}
+
+.checkboxRadio{
+	width:16px;
+	height:16px;
+	margin: 4px 0;
+	text-indent: -999px;
+	overflow: hidden;
+}
+
+/*--- pdf ends from here ---*/
+
+/*--- documentInput start from here ---*/
+.documentInputUl {
+	min-width:490px;
+	width:auto;
+	clear:both;
+	border:1px solid #444;
+	float:left;
+	margin:0 15px;
+}
+
+.documentInputUl li{
+	width:140px;
+	border-left:1px solid #444;
+	padding:5px 0;
+}
+.documentInputUl li input{
+	width:137px;
+	border:none;
+	}
+	
+.docuWidth{
+	 width:490px;
+ 	 clear:both;
+ 	 padding: 10px 0 0 0;
+}
+
+
+
+/*--- documentInput ends from here ---*/
+
+
+/*--- view document start from here ---*/
+
+.boderTopBottom{
+	border-bottom: 2px solid #777;
+}
+.pdfIcon{
+	background: url(../images/css_sprite.png) 0 -84px no-repeat;
+}
+.jpgIcon{
+	background: url(../images/css_sprite.png) -330px -84px no-repeat;
+}
+/*--- view document ends from here ---*/
+
+
+
+/*-- multiselect plugin css start from here------  */
+
+.ui-multiselect { 
+	background: #272422;
+	float:left;
+	font-size: 0.8em;
+	width:988px;
+	border:1px solid #777;
+}
+.multiselect {
+		width: 988px;
+		height: 200px;
+}
+
+.ui-multiselect ul {
+	-moz-user-select: none; 
+}
+.ui-multiselect li { 
+	cursor: default; 
+	font-size: 11px; 
+	}
+.ui-multiselect li a { 
+	color: #999; 
+	padding: 0; 
+	display: block; 
+	float: left; 
+	cursor: pointer;}
+.ui-multiselect li.ui-draggable-dragging { 
+	padding-left: 10px; 
+	}
+
+.ui-multiselect div.selected, .ui-multiselect div.available { 
+	float:left;
+	width:494px;
+	
+	}
+.ui-multiselect ul.selected, .ui-multiselect ul.available{ 
+	overflow: auto; 
+	overflow-x: hidden; 
+	border:2px solid #777;
+	width:490px;
+	background:#777;
+	height:198px
+}
+.ui-multiselect ul.selected li,.ui-multiselect ul.available li  { 
+	padding: 10px 0 10px 10px;
+	text-align: left;
+	color:#000;
+	background:#fff;
+}
+.ui-multiselect ul.selected li{
+	background:#f4f3f2;
+}
+ .ui-multiselect ul.available li:hover, .ui-multiselect ul.selected li:hover{
+ background:#89b8f8;
+ color:#fff;
+ 
+ }
+ 
+.ui-multiselect .ui-state-default { 
+	border: none; 
+	margin-bottom: 1px; 
+	position: relative; 
+	padding-left: 20px;
+	}
+
+.ui-multiselect .ui-widget-header {
+	border: none; 
+	font-size: 11px; 
+	margin-bottom: 1px;
+}
+ 
+.ui-multiselect .add-all,.ui-multiselect .remove-all { 
+	float: right; 
+	padding: 10px;
+	color:#fff;
+	
+}
+
+.ui-multiselect .count { 
+	float: left; 
+	padding: 10px;
+	}
+.statusSpan{
+	width:340px;
+	float:left;
+	padding:10px;
+}
+
+.ui-multiselect li span.ui-icon-arrowthick-2-n-s { 
+	position: absolute; 
+	left: 2px; 
+	}
+.ui-multiselect li a.action {
+	position: absolute; 
+	right: 2px; 
+	top: 2px;
+	width:164px;
+	}
+ 
+.ui-icon { 
+	width: 16px; 
+	height: 16px;
+	background: url(../images/css_sprite.png);
+	display: block; 
+	text-indent: -99999px; 
+	overflow: hidden; 
+	background-repeat: no-repeat;
+	margin:7px 0;
+}
+
+.ui-icon-plus { 
+	background-position: -354px -84px; 
+	}
+.ui-icon-minus { 
+	background-position: -370px -84px; 
+	}
+
+* required comment for clearfix to work in Opera \*/
+
+.ui-helper-clearfix { 
+	display:block; 
+	}
+.ui-helper-hidden-accessible { 
+	position: absolute !important; 
+	clip: rect(1px 1px 1px 1px); 
+	}
+
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { 
+	color: #1c94c4; 
+	}
+.ui-draggable .ui-dialog-titlebar { 
+	cursor: move; 
+	}
+.ui-helper-hidden { 
+	display: none; 
+	}
+
+/*-- multiselect plugin css end from here------  */
+
+/*-- autocomplete plugin css start from here------  */
+.ac_results {
+	padding: 0px;
+	border: 1px solid black;
+	background-color: white;
+	overflow: hidden;
+	z-index: 999;
+	display:block;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	padding: 0;
+	margin: 0;
+	z-index: 99999;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: default;
+	display: block;
+	/* 
+	if width will be 100% horizontal scrollbar will apear 
+	when scroll mode will be used
+	*/
+	/*width: 100%;*/
+	font: menu;
+	font-size: 12px;
+	color:#000;
+	/* 
+	it is very important, if line-height not setted or setted 
+	in relative units scroll will be broken in firefox
+	*/
+	line-height: 16px;
+	overflow: hidden;
+}
+
+.ac_odd {
+	background-color: #eee;
+}
+
+.ac_over {
+ background-color:#89b8f8;
+}
+
+/*-- autocomplete plugin css start from here------  */
+
+
+/*-- Overlay css start from here------  */
+.overlay {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	float: left;
+	background: url(../images/overlayBg.png) top left repeat;
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 999;
+}
+.overlay h2 {
+	font: bold 14px Verdana, Geneva, sans-serif;
+	padding: 10px 0 20px;
+}
+.overlayMain {
+	margin: 0 auto;
+	width: 629px;
+}
+
+.ovelayEquipmentBox {
+	margin: 0 auto;
+	width: 725px;
+}
+
+.overlayTopMargin{
+	margin-top:100px;
+}
+.overlayEquipmentOverlay{   
+	margin-top:50px;
+}
+.overlaySelect {
+    border: 1px solid #CCCCCB;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: -1px 1px 6px #E1E1E1 inset;
+    color: #5C5C5C;
+    height: 26px;
+    padding: 4px;
+    width: 248px;
+}
+.overlayIframe {
+	width: 245px;
+	height: 75px;
+	border: 1px solid #999;
+}
+
+.overlayInputHeading {
+	padding: 6px 15px;
+	color: #626262;
+	font: bold 11px Verdana, Geneva, sans-serif;
+	float: left;
+}
+
+.overlayInput {
+	background:url(../images/css_sprite.png) -370px -47px no-repeat;
+	border: none;
+	width: 229px;
+	padding: 6px 10px;
+	color: #5c5c5c;
+}
+
+
+.closeButton {
+	background: url(../images/close-button.png) top left no-repeat;
+	float: right;
+	margin: -5px 0 0 0;
+}
+
+
+.textareaWidth {
+	width: 93%;
+	margin: 0 2.5% 0 2.5%;
+	border: 1px solid #cccccb;
+	border-radius: 3px;
+	box-shadow: -1px 1px 6px #e1e1e1 inset;
+	color: #5c5c5c;
+	padding: 0.5%;
+}
+
+/*-- Overlay css end from here------  */
+
+
+/*-- create project overlay start from here------  */
+.ovelayPostion{
+	margin:0  auto;
+	width:430px;
+}
+.projectName{
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	float: left;
+	width: 986px;
+	margin: 10px 15px;	
+}
+.borderRight{
+	border-right:1px solid #777;
+}
+.borderBottom{
+	border-bottom:1px solid #777;
+}
+.borderLeft{
+	border-left:1px solid #777;
+}
+.liWidth{
+	width:308px;
+	padding:10px 10px
+}
+.innerDiv{
+	width:657px;
+	border-left: 1px solid #777;
+}
+.displayNone{
+	display:none;
+}
+
+
+/*-- create project overlay start from here------  */
+
+/*-- pagination code start from here --*/
+
+#pagination li.current{
+	background: #26B;
+}
+#pagination span, #pagination a, #pagination li{
+	padding:5px 8px;
+	float:left;
+	border: solid 1px #AAE;
+	margin:0 0 0 15px;
+	color: #000;
+	cursor:pointer;
+	background:#FFF;
+}
+#pagination span.currentStep{
+	background: #26B;
+}
+.emailGroupInput{
+	padding:5px;
+	margin:5px 0 0 0;
+}
+
+/*-- pagination code end from here --*/
+
+/*-- customize desing code start from here --*/
+.customize{
+	padding:3px;
+	width:88px;
+	height:75px;
+	border-radius:6px;
+	background:#d9d9d9;	
+	display:block;
+}
+#customize li.rightMargin{
+	margin:10px 5px 0 0;
+}
+#customize li.rightNone{
+	margin-top:10px;
+}
+.showBorder{
+	background:#4f98fc;
+	
+}
+
+
+/*-- customize desing code start from here --*/
+.colorpicker {
+	width: 296px;
+	height: 176px;
+	overflow: hidden;
+	position: absolute;
+	background: #ffffff url(../images/custom_background.png);
+	font-family: Arial, Helvetica, sans-serif;
+	display: none;
+}
+.colorpicker_color {
+	width: 150px;
+	height: 150px;
+	left: 14px;
+	top: 13px;
+	position: absolute;
+	cursor: crosshair;
+}
+.colorpicker_color div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 150px;
+	height: 150px;
+	background: url(../images/colorpicker_overlay.png);
+}
+.colorpicker_color div div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 11px;
+	height: 11px;
+	overflow: hidden;
+	background: url(../images/colorpicker_select.gif);
+	margin: -5px 0 0 -5px;
+}
+.colorpicker_hue {
+	position: absolute;
+	top: 13px;
+	left: 171px;
+	width: 35px;
+	height: 150px;
+	cursor: n-resize;
+}
+.colorpicker_hue div {
+	position: absolute;
+	width: 35px;
+	height: 9px;
+	overflow: hidden;
+	background: url(../images/colorpicker_indic.gif) left top;
+	margin: -4px 0 0 0;
+	left: 0px;
+}
+.colorpicker input {
+	border:none;
+	padding:4px;
+}
+.colorpicker_hex {
+position: absolute;
+right: 15px;
+left: auto!important;
+top: 9px;
+padding:4px;
+
+}
+
+.colorpicker_rgb_r,.colorpicker_rgb_g,.colorpicker_rgb_b, .colorpicker_hsb_h,.colorpicker_hsb_s ,.colorpicker_hsb_b{
+	display:none;
+}
+
+.colorpicker_submit{
+	position:absolute;
+	height:22px;
+	width:58px;
+	left:213px;
+	top:142px;
+	overflow:hidden;
+}
+/*-- customize desing code end  here --*/
+.reportAddIcon {
+	width: 24px;
+	height: 24px;
+	margin: -4px 0;
+	
+}
+.floorMapWidth{
+	width:620px;
+}
